@@ -18,11 +18,10 @@ public class fisika2 {
         I = in.nextInt();
 
         double Rtotal;
-        Rtotal = R4 + (1 / R1 + 1 / R2 + 1 / R3);
+        Rtotal = ((1.0 / R1) + (1.0 / R2) + (1.0 / R3) + R4);
         V = I * Rtotal;
-        int a = 3;
-        int b = 2;
-        float c = (float) a / b; 
+    
+
         System.out.println("Hasilnya adalah = " + V);
     }
 }
