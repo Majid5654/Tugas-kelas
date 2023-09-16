@@ -22,7 +22,7 @@ public class fisika2 {
         V = I * Rtotal;
         int a = 3;
         int b = 2;
-        float c = (float) a / b; // Cast one of the operands to float for accurate division.
+        float c = (float) a / b; 
         System.out.println("Hasilnya adalah = " + c);
     }
 }
