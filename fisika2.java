@@ -20,10 +20,6 @@ public class fisika2 {
         double Rtotal;
         Rtotal = R4 + (1 / (1.0 / R1 + 1.0 / R2 + 1.0 / R3));
         V = I * Rtotal;
-
-        System.out.println("Rtotal anda = " + Rtotal);
-        System.out.println("Maka V anda = " + V);
-
         int a = 3;
         int b = 2;
         float c = (float) a / b; // Cast one of the operands to float for accurate division.
