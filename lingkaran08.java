@@ -4,13 +4,13 @@ public class lingkaran08 {
     public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
     int r;
-    double keliling,luas;
-    System.out.println("Masukkan jari jari");
+    double area,Circumferences;
+    System.out.println("Input the radius");
     r = input.nextInt();
-    keliling= (2*r)*3.14 ;
-    luas = 3.14*r*r;
-    System.out.println("Maka keliling adalah" + keliling);
-    System.out.println("Maka luas adalah" + luas);
+    area= (2*r)*3.14 ;
+    Circumferences = 3.14*r*r;
+    System.out.println("Area"+ area );
+    System.out.println("Circumferences" + Circumferences);
     
 
 
