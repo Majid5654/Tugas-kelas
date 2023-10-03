@@ -16,7 +16,7 @@ public class Selection308 {
     case '+':
     result = operand1 + operand2;
     System.out.println(operand1 + "+" + operand2 + "=" + result);
-    break;
+    
     case '-':
     result = operand1 - operand2;
     System.out.println(operand1 + "*" + operand2 + "=" + result);
