@@ -19,16 +19,34 @@ int pass = scan.nextInt();
             System.out.println("4. Exit\n");
 }
 else if (u == "Baihaqi" || pass == 124 ){
-System.out.println("baq");
+System.out.println("====================================");
+            System.out.println("-----Selamat Datang Di Bank -----");
+            System.out.println("====================================");
+            System.out.println("1. Account");
+            System.out.println("2. Transfer");
+            System.out.println("3. Withdraw");
+            System.out.println("4. Exit\n");
 
 
 }
 else if (u == "Arka" || pass == 125){
-    System.out.println("arka");
+    System.out.println("====================================");
+            System.out.println("-----Selamat Datang Di Bank -----");
+            System.out.println("====================================");
+            System.out.println("1. Account");
+            System.out.println("2. Transfer");
+            System.out.println("3. Withdraw");
+            System.out.println("4. Exit\n");
 }
 else if (u == "Xavier" || pass == 126){
 
-    System.out.println("xav");
+    System.out.println("====================================");
+            System.out.println("-----Selamat Datang Di Bank -----");
+            System.out.println("====================================");
+            System.out.println("1. Account");
+            System.out.println("2. Transfer");
+            System.out.println("3. Withdraw");
+            System.out.println("4. Exit\n");
 }
 
 else{
