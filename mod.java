@@ -9,7 +9,7 @@ System.out.println("Masukkan nama");
 String u = scan.next();
 System.out.println("Masukkan password");
 int pass = scan.nextInt();
- if (u == "Majid" || pass == 123) {
+ if (u.equals("Majid") && pass == 123) {
     System.out.println("====================================");
             System.out.println("-----Selamat Datang Di Bank -----");
             System.out.println("====================================");
