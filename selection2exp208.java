@@ -1,5 +1,4 @@
 import java.util.Scanner;
-//int totalAngle
 public class selection2exp208 {
     public static void main(String[] args) {
         Scanner input08 = new Scanner (System.in);
@@ -21,11 +20,6 @@ public class selection2exp208 {
                 System.out.println("isosceles triangle");
             }
         }
-
-
-
-    //else
-    //System.out.println("Not a right triangle");
 else
 System.out.println("Not a triangle");
 }
