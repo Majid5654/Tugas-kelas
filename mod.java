@@ -63,13 +63,11 @@ public class mod {
                     System.out.println("7. Bill");
         }
         else
-            System.out.println("Wrong");
+            System.out.println(" Your ID or your Password is Wrong");
         
      }
     
-     else{
-        System.out.println("Not member canot enter");
-     }
+    
     
     
     
