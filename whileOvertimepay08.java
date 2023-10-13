@@ -28,15 +28,19 @@ else if (position.equalsIgnoreCase("manager")){
 else if(position.equalsIgnoreCase("staff")){
     overtimePay=overtimeHours*75000;
 }
-
-totalOvertimePay += overtimePay;
+else{
+    System.out.println("Invalid Position");
+    i--;
+    continue;
 }
+
+    totalOvertimePay += overtimePay;
+
+}
+
 System.out.println("Total of Overtime Pay = "+totalOvertimePay);
+
 }
-
-
-
-
 
     }
 
