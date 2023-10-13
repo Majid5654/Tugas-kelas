@@ -5,8 +5,8 @@ public class formultiples08 {
     int multiple;
     int counter = 0;
     int sum = 0;
-
-    int cumulativeSum = 0; 
+    double cumulativeSum = 0; 
+    double average;
 
         System.out.println("Input the multiple = ");
         multiple = scan.nextInt();
@@ -15,7 +15,7 @@ public class formultiples08 {
             if (i % multiple == 0) {
                 sum = sum + i;
                 counter++;
-                cumulativeSum += i; // Accumulate the sum of multiples
+                cumulativeSum += i; 
             }
         }
 
@@ -23,7 +23,7 @@ public class formultiples08 {
         System.out.printf("The sum of all multiples of %d in the range 1 to 50 is %d.\n", multiple, sum);
 
         
-        double average = (double) cumulativeSum / counter;
+        average = cumulativeSum / counter;
         System.out.printf("The average of all multiples of %d in the range 1 to 50 is %.2f.\n", multiple, average);
 
 
