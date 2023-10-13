@@ -19,7 +19,7 @@ public static void main(String[] args) {
             tax = 0.2;
         netSalary =(int) (income - (tax*income));
         System.out.println("Nett salary = " + netSalary);
-    }else if (category.equals("businessman")){
+    }else if (category.equalsIgnoreCase("businessman")){
         if(income <= 2500000)
             tax = 0.15;
         else if(income <= 3500000)

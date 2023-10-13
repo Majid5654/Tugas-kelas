@@ -6,20 +6,25 @@ public class formultiples08 {
     int counter = 0;
     int sum = 0;
 
-    System.out.println("Input the multiple = ");
-    multiple = scan.nextInt();
+    int cumulativeSum = 0; 
 
-    int i = 1;
-        while (i <= 50) {
+        System.out.println("Input the multiple = ");
+        multiple = scan.nextInt();
+
+        for (int i = 1; i <= 50; i++) {
             if (i % multiple == 0) {
                 sum = sum + i;
                 counter++;
+                cumulativeSum += i; // Accumulate the sum of multiples
             }
-            i++;
         }
 
-        System.out.printf("There are %d numbers that are multiples of %d in range 1 to 50. \n", counter, multiple);
-        System.out.printf("The sum of all multiples of %d in range 1 to 50 is %d.\n", multiple, sum);
+        System.out.printf("There are %d numbers that are multiples of %d in the range 1 to 50. \n", counter, multiple);
+        System.out.printf("The sum of all multiples of %d in the range 1 to 50 is %d.\n", multiple, sum);
+
+        
+        double average = (double) cumulativeSum / counter;
+        System.out.printf("The average of all multiples of %d in the range 1 to 50 is %.2f.\n", multiple, average);
 
 
 
