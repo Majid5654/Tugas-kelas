@@ -6,7 +6,7 @@ public class mod {
     System.out.println("Apakah anda member Bank Qwerty");
      String member = scan.nextLine();
 
-     if (member.equals("Yes")) {
+     if (member.equals("Yes") || member.equals("Ya") || member.equals("ya") || member.equals("yes")) {
          System.out.println("Masukkan nama");
         String u = scan.next();
         System.out.println("Masukkan password");
@@ -65,6 +65,10 @@ public class mod {
         else
             System.out.println(" Your ID or your Password is Wrong");
         
+     }
+
+     else{
+        System.out.println("Your not member");
      }
     
     
