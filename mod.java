@@ -3,74 +3,58 @@ import java.util.Scanner;
 public class mod {
     public static void main(String[] args) {
     Scanner scan = new Scanner (System.in);
-    System.out.println("Apakah anda member Bank Qwerty");
-     String member = scan.nextLine();
-
-     if (member.equals("Yes") || member.equals("Ya") || member.equals("ya") || member.equals("yes")) {
-         System.out.println("Masukkan nama");
+    boolean menu = true;
+    boolean login = true;
+    
+     while (login) {
+        System.out.println("Masukkan nama");
         String u = scan.next();
         System.out.println("Masukkan password");
         int pass = scan.nextInt();
-    
-        if (u.equals("Majid") && pass == 123) {
-                    System.out.println("====================================");
-                    System.out.println("------ Welcome to Bank Qwerty ------");
-                    System.out.println("====================================");
-                    System.out.println("1. Withdraw");
-                    System.out.println("2. Top up");
-                    System.out.println("3. Transfer");
-                    System.out.println("4. Payment");
-                    System.out.println("5. Cash Deposit");
-                    System.out.println("6. Balance Info");
-                    System.out.println("7. Bill");
+            if (u.equals("Majid") && pass == 123){
+             login = false;
+             menu = true;
         }
-        else if (u.equals("Xavier") && pass == 124 ){
-                    System.out.println("====================================");
-                    System.out.println("------ Welcome to Bank Qwerty ------");
-                    System.out.println("====================================");
-                    System.out.println("1. Withdraw");
-                    System.out.println("2. Top up");
-                    System.out.println("3. Transfer");
-                    System.out.println("4. Payment");
-                    System.out.println("5. Cash Deposit");
-                    System.out.println("6. Balance Info");
-                    System.out.println("7. Bill");
-
+        else {
+            System.out.println("Wrong user");
+            login = true;
+            menu = false;
         }
-        else if (u.equals("Arka") && pass == 125){
-                    System.out.println("====================================");
-                    System.out.println("------ Welcome to Bank Qwerty ------");
-                    System.out.println("====================================");
-                    System.out.println("1. Withdraw");
-                    System.out.println("2. Top up");
-                    System.out.println("3. Transfer");
-                    System.out.println("4. Payment");
-                    System.out.println("5. Cash Deposit");
-                    System.out.println("6. Balance Info");
-                    System.out.println("7. Bill");
         }
-        else if (u.equals("Baihaqi") && pass == 126){
-
-                    System.out.println("====================================");
-                    System.out.println("------ Welcome to Bank Qwerty ------");
-                    System.out.println("====================================");
-                    System.out.println("1. Withdraw");
-                    System.out.println("2. Top up");
-                    System.out.println("3. Transfer");
-                    System.out.println("4. Payment");
-                    System.out.println("5. Cash Deposit");
-                    System.out.println("6. Balance Info");
-                    System.out.println("7. Bill");
-        }
-        else
-            System.out.println(" Your ID or your Password is Wrong");
         
-     }
+        while (menu) {
+                    System.out.println("====================================");
+                    System.out.println("------ Welcome to Bank Qwerty ------");
+                    System.out.println("====================================");
+                    System.out.println("1. Withdraw");
+                    System.out.println("2. Top up");
+                    System.out.println("3. Transfer");
+                    System.out.println("4. Payment");
+                    System.out.println("5. Cash Deposit");
+                    System.out.println("6. Balance Info");
+                    System.out.println("7. Bill"); 
+                    int choice = scan.nextInt();
+        switch (choice){
+        case 1 :
+        System.out.println("Your withdraw is 2003");
+        menu = false;
+        System.out.println("you want back to menu ? (y/n)");
+        String back = scan.nextLine();
+        if (back.equals("y")) {
+            
+        }
+        break;
 
-     else{
-        System.out.println("Your not member");
-     }
-    
+        case 2 :
+        System.out.println("Your top up");
+        }
+        }
+                    
+        }
+
+        
+        
+     
     
     
     
@@ -80,5 +64,5 @@ public class mod {
 
         }   
 
- }
+ 
 
