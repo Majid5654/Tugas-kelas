@@ -16,7 +16,7 @@ public class mod {
              menu = true;
         }
         else {
-            System.out.println("Wrong user");
+            System.out.println("\n Wrong user\n ******");
             login = true;
             menu = false;
         }
@@ -32,21 +32,26 @@ public class mod {
                     System.out.println("4. Payment");
                     System.out.println("5. Cash Deposit");
                     System.out.println("6. Balance Info");
-                    System.out.println("7. Bill"); 
+                    System.out.println("7. Bill");
+                    System.out.println("Choose your option");
                     int choice = scan.nextInt();
         switch (choice){
         case 1 :
         System.out.println("Your withdraw is 2003");
         menu = false;
         System.out.println("you want back to menu ? (y/n)");
-        String back = scan.nextLine();
+        String back = scan.next();
         if (back.equals("y")) {
-            
+            menu = true;
         }
-        break;
+        else {
+            break;
+        }
+        //break;
 
         case 2 :
         System.out.println("Your top up");
+
         }
         }
                     

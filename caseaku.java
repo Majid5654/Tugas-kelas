@@ -9,7 +9,7 @@ System.out.println("Exit");
 
 //case 7
 
-System.out.println("Bill");
+//System.out.println("Bill");
 
 
 
