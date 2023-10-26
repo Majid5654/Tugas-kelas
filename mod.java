@@ -45,6 +45,7 @@ public class mod {
             menu = true;
         }
         else {
+            System.out.println("Thank for using Bank Qwerty");
             break;
         }
         //break;

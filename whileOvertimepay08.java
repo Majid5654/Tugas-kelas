@@ -15,7 +15,7 @@ while (i < numEmployee) {
     position = input.next();
     System.out.println("Employee " + (i+1)+ "overtime hours = ");
     overtimeHours = input.nextInt();
-//i++;
+i++;
 
 if (position.equalsIgnoreCase("director")) {
     continue;
@@ -35,7 +35,7 @@ else{
 }
 
     totalOvertimePay += overtimePay;
-i++;
+//i++;
 }
 
 System.out.println("Total of Overtime Pay = "+totalOvertimePay);

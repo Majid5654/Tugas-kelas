@@ -17,11 +17,12 @@ if (konfirmasi.equals("y") || konfirmasi.equals("Y")) {
        if (jumlahHari <= jatahcuti) {
         jatahcuti -= jumlahHari;
         System.out.println("Sisa jatah cuti: " +jatahcuti);
+        
+        }
         else{
 
             System.out.println("Sisa jatuh cuti anda tidak mencukupi");
             break;
-        }
        }
 }
     
