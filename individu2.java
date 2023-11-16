@@ -5,6 +5,7 @@ public static void main(String[] args) {
 Scanner scan = new Scanner(System.in);
 System.out.println("Masukkan nilai N = ");
 int N = scan.nextInt();
+if (N>=5) {
 int i = N;
 while (i>=1) {
     int j = 1;
@@ -15,5 +16,10 @@ while (i>=1) {
     System.out.println();
     i--;
 }
+}
+else{
+    System.out.println("minimal input 5 ");
+}
+
     }
 }
