@@ -9,14 +9,14 @@ public class cobaaaa {
         if (N >= 3) {
             int i = 1;
             while (i <= N) {
-                // Cetak spasi sebelum angka
+                
                 int space = 1;
                 while (space <= N - i) {
                     System.out.print(" ");
                     space++;
                 }
 
-                // Cetak angka dari kanan
+                
                 int j = 1;
                 while (j <= i) {
                     System.out.print(j);
@@ -30,7 +30,7 @@ public class cobaaaa {
             System.out.println("Minimal angka yang dimasukkan 3 ");
         }
 
-        // Menutup Scanner
+        
         scan.close();
     }
 }
